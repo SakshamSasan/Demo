@@ -1,0 +1,62 @@
+.bg{
+    height:40vh;
+    background-attachment: fixed;
+    background-image: url(../assets/images/qc.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profilepic{
+    height:12rem;
+    width:12rem;
+    border-radius: 50%;
+    background-image: url(../assets/images/alie.jpeg);
+    background-size:cover;
+    position:relative;
+    top: -6rem;
+}
+.text{
+    font-family: "Roboto Slab", sans-serif;
+}
+.greycolor{
+    color:rgb(179,181,183)
+}
+.links{
+    text-decoration: none !important;
+}
+.queue_container{
+    display: flex;
+    overflow-x: scroll;
+}
+.sliderIconsLeft,.sliderIconsRight{
+    cursor:pointer;
+    position: absolute;
+    top:50%;
+}
+.sliderIconsLeft{
+    left:-5%;
+}
+.sliderIconsRight{
+    right:-5%;
+}
+.sliderIconsLeft:hover,.sliderIconsRight:hover{
+    opacity: 0.3;
+}
+.hi{
+    background-image: url(../assets/images/mt.jpeg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.contact {
+    color:white;
+
+}
+@media screen and (max-width:768px){
+    .sliderIconsLeft{
+        left:-10%;
+    }
+    .sliderIconsRight{
+        right:-10%;
+    }
+}

@@ -1,0 +1,30 @@
+.my_high{
+    margin-top: 20vh;
+}
+
+.queue_container{
+    display: flex;
+    overflow-x: scroll;
+}
+.sliderIconsLeft,.sliderIconsRight{
+    cursor:pointer;
+    position: absolute;
+    top:50%;
+}
+.sliderIconsLeft{
+    left:-5%;
+}
+.sliderIconsRight{
+    right:-5%;
+}
+.sliderIconsLeft:hover,.sliderIconsRight:hover{
+    opacity: 0.3;
+}
+@media screen and (max-width:768px){
+    .sliderIconsLeft{
+        left:-10%;
+    }
+    .sliderIconsRight{
+        right:-10%;
+    }
+}

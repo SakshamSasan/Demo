@@ -1,0 +1,14 @@
+.w_80{
+    width:80%;
+    background-color:rgb(243,240,227);
+}
+.bg{
+    width:50%;
+    height:0;
+    padding-bottom:50%;
+    border-radius: 50%;
+    background-image: url(../assets/images/banvir.jpeg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+.picContainer{
+    width: 80%;
+}
+.choose{
+    width:100%;
+    background-image: url('../assets/images/choose-teacher.png');
+    height:0;
+    padding-bottom: 100%;
+}
+.book{
+    width:100%;
+    background-image: url('../assets/images/booklesson.png');
+    height:0;
+    padding-bottom: 100%;
+}
+.start{
+    width:100%;
+    background-image: url('../assets/images/startjourney.png');
+    height:0;
+    padding-bottom: 100%;
+}   
+.choose,.book,.start{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:768px){
+    .picContainer{
+        width:40%;
+    }
+}

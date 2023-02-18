@@ -1,0 +1,83 @@
+.img_fit{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.line{
+    width:35%;
+    height:0;
+    border: 0.5px solid rgba(0,0,0,0.5);
+}
+.submit{
+    background-color: rgb(240,145,56);
+    color:white;
+}
+.googlepill,.fbpill {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding: 1rem 2rem 1rem 2rem;
+    border-color: black !important;
+    border-width: 2.5px !important;
+    font-weight: bold;
+    color:rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.iconGoogle,.iconFacebook {
+    vertical-align:baseline;
+    display: inline-block;
+    height:1.3rem;
+    width:1.3rem;
+    background-size:cover ;
+    margin-right: 0.3rem;
+    margin-top: 0.1rem;
+}
+.iconFacebook{
+    background-image: url('../assets/images/fb.svg.png');
+}
+.iconGoogle{
+    background-image: url('../assets/images/google.jpeg');
+}
+.logo{
+    height: 4rem;
+    width: 16rem;
+    background-image: url('../assets/images/logo.svg');
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color:white;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 11rem;
+    z-index: 1;
+    color:black;
+
+}
+.hover_border:hover{
+    border-bottom: 2px solid red;
+}
+.btn_white{
+    background-color: white ;
+    color:#dc3545;
+}  
+.btn_white:hover{
+    background-color: #dc3545;
+    color:white;
+}
+.dropdown_content div:hover{
+    background-color: lightgray;
+    border-left: 4px solid #dc3545;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

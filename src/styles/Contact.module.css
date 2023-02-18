@@ -1,0 +1,46 @@
+.black{
+    background-color: black;
+}
+.helper{
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+}
+.helper:hover{
+    background-color: black;
+    color:white;
+}
+.text{
+    color:white;
+    text-align: center;
+}
+.phone{
+    width:30%;
+    height:0;
+    padding-bottom: 30%;
+    background-image: url(../assets/images/phone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mail{
+    width:30%;
+    height:0;
+    padding-bottom: 30%;
+    background-image: url(../assets/images/mail.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.heading{
+    color:rgb(26, 76, 177);
+}
+.form{
+    width:50%;
+}
+@media screen and (max-width:768px){
+    .form{
+        width:80%
+    }
+}
