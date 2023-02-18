@@ -5,7 +5,7 @@ function QueueComponent(){
     
     return(
         <div className={`${classes.w_25} d-flex flex-column mx-4`}>
-            <Link to='/teacher' className={classes.decor}>
+            <Link to='/Demo/teacher' className={classes.decor}>
             <div className={`${classes.img} rounded`}>
 
             </div>

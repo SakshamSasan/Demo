@@ -36,10 +36,10 @@ function App() {
       
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<Home />}></Route>
-        <Route exact path='/about' element={<AboutUs />}></Route>
-        <Route exact path='/contact' element={<ContactUs />}></Route>
-        <Route exact path='/teacher' element={<Teacher />}></Route>
+        <Route exact path='/Demo' element={<Home />}></Route>
+        <Route exact path='/Demo/about' element={<AboutUs />}></Route>
+        <Route exact path='/Demo/contact' element={<ContactUs />}></Route>
+        <Route exact path='/Demo/teacher' element={<Teacher />}></Route>
       </Routes>
       <Footer />
     </div>

@@ -13,8 +13,8 @@ function Footer(){
                                 <h3 className={`${classes.white} my-2`}><span className={classes.red}>NEXT</span> LESSON ?</h3>
                             </div>
                             <div className='col-6 d-flex flex-column justify-content-center  align-items-center'>
-                                <Link to='/about' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>About Us</h6></Link>
-                                <Link to='/contact' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>Contact Us</h6></Link>
+                                <Link to='/Demo/about' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>About Us</h6></Link>
+                                <Link to='/Demo/contact' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>Contact Us</h6></Link>
                                 <Link to='' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>Services we offer</h6></Link>
                                 
                             </div>
@@ -24,7 +24,7 @@ function Footer(){
                         <div className='row py-2'>
                             <div className='col-6 d-flex flex-column justify-content-center  align-items-center'>
                                 <Link to='' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>Privacy Policy</h6></Link>
-                                <Link to='' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>FAQs</h6></Link>
+                                <Link to='/Demo/contact' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>FAQs</h6></Link>
                                 <Link to='' style={styles.noDecoration}><h6 className={`${classes.white} my-1`}>Terms &amp; Conditions</h6></Link>
                                 
                             </div>
