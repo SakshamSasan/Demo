@@ -35,7 +35,7 @@ function Navbar(){
             <nav className="navbar navbar-expand-lg" style={style.navdark}>
             <div className="container">
                 <div className='navbar-brand d-flex'>
-                    <Link to='/'>
+                    <Link to='/Demo'>
                         <div className={`${classes.img_fit} ${classes.logo} me-3 animate__animated animate__fadeInDown`}>
                         
                         </div>
