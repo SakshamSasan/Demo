@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Demo/static/css/main.9ea8a491.css",
+    "main.js": "/Demo/static/js/main.c2c17148.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Demo/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/new.png": "/Demo/static/media/new.a4124d897d2897719659.png",
+    "static/media/mt.jpeg": "/Demo/static/media/mt.b73228d7a43abdba2c6b.jpeg",
+    "static/media/AVATAR.png": "/Demo/static/media/AVATAR.07338a14302b1779bea4.png",
+    "static/media/qc.jpeg": "/Demo/static/media/qc.9ed7097a8c69cba1390f.jpeg",
+    "static/media/alie.jpeg": "/Demo/static/media/alie.690ff0b4d4dac5a5fa39.jpeg",
+    "static/media/fb.svg.png": "/Demo/static/media/fb.svg.b8d9fc6be64fd917b43e.png",
+    "static/media/banvir.jpeg": "/Demo/static/media/banvir.051e225d332d9f365fd2.jpeg",
+    "static/media/startjourney.png": "/Demo/static/media/startjourney.c7ab9deeaea6d54a9756.png",
+    "static/media/choose-teacher.png": "/Demo/static/media/choose-teacher.6e527f0f547296ab8108.png",
+    "static/media/booklesson.png": "/Demo/static/media/booklesson.eef68fe78fe215b95727.png",
+    "static/media/mail.png": "/Demo/static/media/mail.3e8fbaae82a5b73140a0.png",
+    "static/media/logo.svg": "/Demo/static/media/logo.27a523d5926f58dbd28a.svg",
+    "index.html": "/Demo/index.html",
+    "main.9ea8a491.css.map": "/Demo/static/css/main.9ea8a491.css.map",
+    "main.c2c17148.js.map": "/Demo/static/js/main.c2c17148.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Demo/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea8a491.css",
+    "static/js/main.c2c17148.js"
+  ]
+}
